@@ -1,0 +1,72 @@
+@font-face {
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-family: "timer";
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #1b244a;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#container {
+    width: 575px;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "timer";
+}
+
+.score {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 26px 0px;
+}
+
+.box-number {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.score-number {
+    color: #f94f6d;
+    font-size: 90px;
+}
+
+.buttons {
+    margin: 26px 0px 60px 0px;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
+    border-radius: 5px;
+    background-color: #1b244a;
+    font-family: inherit;
+}
+
+.btn:active {
+    background-color: #0e1327;
+}
